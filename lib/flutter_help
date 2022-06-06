@@ -1,0 +1,16 @@
+
+import 'package:flutter/material.dart';
+
+
+mainAxisAlignment: MainAxisAlignment.center,
+verticalDirection: VerticalDirection.down,
+crossAxisAlignment: CrossAxisAlignment.end,
+backgroundColor: Color.fromARGB(255, 251, 117, 117)
+
+// circled shape
+CircleAvatar(
+  radius: 50,
+  backgroundColor: Color.fromARGB(255, 248, 245, 235),
+  backgroundImage: AssetImage('assets/Logo.png'),
+)
+'''
